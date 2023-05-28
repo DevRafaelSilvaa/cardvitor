@@ -1,0 +1,82 @@
+html{
+  width: 100%;
+  height: 100%;
+  margin-bottom: 0;
+}
+
+body{
+  background-image: url(images/bg-pattern-bottom.svg);
+  width: 90%;
+  height: 100%;
+  margin-bottom: 0;
+  background-color: hsl(185, 75%, 39%);
+}
+article{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0;
+}
+.card{
+  background-color: aliceblue;
+  width:21.9em;
+  height: 22em;
+  margin-bottom: 0;
+}
+
+.homem{
+  margin-left: 8em;
+  margin-top: -3em;
+  border-radius: 50%;
+}
+
+.nome__cidade{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.nome{
+  margin-left: -2em;
+}
+
+span{
+  color: #ccc;
+  margin-left: 3px;
+}
+
+.cidade{
+  margin-top: 5px;
+  margin-left: -2em;
+  color: #ccc;
+}
+
+.detalhe{
+  margin-left: -40px;
+  width: 350px;
+  height: 4px;
+  background-color: rgb(182, 182, 182);
+  opacity: 0.2;
+  margin-top: 10px;
+}
+
+.sobre{
+  list-style-type:none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.flowers{
+  text-align: center;
+}
+
+.k80{
+  font-size: 26px;
+}
+
+.likes{
+  text-align: center;
+}
